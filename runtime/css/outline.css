@@ -1,0 +1,100 @@
+
+/*Main Title of the artefact*/
+.main_title {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0;
+  height: auto;
+  /* width: 100%; */
+  /* float: left; */
+  margin: 0;
+  left: 40vw;
+  /* -ms-transform: rotate(0deg); */
+  /* -webkit-transform: rotate(0deg); */
+  transform: rotate(0deg);
+  font-family: "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size: 2vw;
+  color: rgba(121, 181, 7, 1.0);
+  text-align: center;
+  letter-spacing: 3.07px;
+  line-height: 30.0px;
+}
+
+/*Instructions box display*/
+#vl_instruction,
+.header {
+  display: inline-block;
+}
+
+/*Instructions box outline*/
+#vl_instruction {
+  position: absolute;
+  right: 0;
+  margin-top: 5vh;
+  display: flex;
+}
+
+/*Instructions box text*/
+#vl_text_instruction {
+  width: 30vw;
+  height: 15vh;
+  border-width: 1px;
+  border-color: grey;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1.3vh;
+}
+
+/*Blue Box near the instructions box*/
+.bluebox {
+  background-color: rgba(105, 179, 215, 1.0);
+  top: 13vh;
+  height: 6.15vw;
+  width: 1vw;
+  position: absolute;
+  margin: 0;
+  left: 69vw;
+  left: 68vw;
+  /* -ms-transform: rotate(0deg); */
+  /* -webkit-transform: rotate(0deg); */
+  transform: rotate(0deg);
+}
+
+/*Instructions box boundary*/
+.instruction_boundary {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 8vh;
+  height: 6vw;
+  width: 30vw;
+  position: absolute;
+  margin: 0;
+  left: 70vw;
+  left: 69vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(150, 150, 150, 1.0);
+  /* -ms-transform: rotate(0deg); */
+  /* -webkit-transform: rotate(0deg); */
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+/* For exercise question */
+#question {
+  top: 12vh;
+  position: absolute;
+  left: 4vw;
+  font-family: 'OpenSans-Regular';
+  font-size: 1.4vw;
+}
+
+#gen {
+  display: none;
+}
+
+/*For Printing sequence of nodes visited*/
+#sequence {
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  font-size: 1.5vw;
+}
